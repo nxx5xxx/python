@@ -12,5 +12,5 @@ print를 printf처럼 사용이가능하다
 ex) print("name=%s age=%d" % (name,age))
 '''
 #format 함수
-print("당신의 이름은 {}이며, 나이는 {}세 입니다.".format(name, age))
-print("제가 가장 좋아하는 치킨은{1},{0},{2}입니다".format("후라이드","양념","간장"))
+print("당신의 이름은 {}이며, 나이는 {}세 입니다.".format(name, age)) #{}는 인자를 뜻함
+print("제가 가장 좋아하는 치킨은{1},{0},{2}입니다".format("후라이드","양념","간장")) #{x}순서대로 0,1,2로 들어감
